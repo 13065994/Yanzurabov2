@@ -17,7 +17,7 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100052395031835",
+    "",
     ""
   ],
   "whiteListMode": {
@@ -25,12 +25,12 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "OWNER": "Kyle Bait-it",
-  "AGE": "19",
+  "OWNER": "itz gerald max",
+  "AGE": "12",
   "GENDER": "MALE",
-  "nickNameBot": "≫ # ≪ ➣ 𝑍𝐸𝑃𝐻𝑌𝑅𝑈𝑆 𝘼𝙄𝘃𝟮𓃵",
-  "FACEBOOK": "https://www.facebook.com/kyleyukaro",
-  "prefix": "#",
+  "nickNameBot": "❭» ? «❬ ༝➤ 𝐌𝐀𝐓𝐄𝐎 𝐂𝐇𝐀𝐓𝐁𝐎𝐓 ( 𝙻𝚃𝙳 )",
+  "FACEBOOK": "https://www.facebook.com/itz",
+  "prefix": "?",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -38,7 +38,7 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Ho_Chi_Minh",
+  "timeZone": "Africa/Lagos",
   "credentials": {
     "gmailAccount": {
       "email": "niknobmakshub@gmail.com",
@@ -78,17 +78,17 @@
     "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
   },
   "autoLoadScripts": {
-    "enable": true,
+    "enable": false,
     "ignoreCmds": "",
     "ignoreEvents": "",
     "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)"
   },
   "autoRefreshFbstate": true,
   "autoReloginWhenChangeAccount": false,
-  "autoRestartWhenListenMqttError": false,
+  "autoRestartWhenListenMqttError": true,
   "restartListenMqtt": {
     "disable": false,
-    "timeRestart": 0,
+    "timeRestart": 3600000,
     "delayAfterStopListening": 0,
     "logNoti": false,
     "notes": "the value of timeRestart and delayAfterStopListening is milisecond, You shouldn't edit this if you don't know what it is"
@@ -125,7 +125,7 @@
     "message_unsend": true,
     "message_reply": true,
     "event": true,
-    "read_receipt": false,
+    "read_receipt": true,
     "typ": false,
     "presence": false
   },
