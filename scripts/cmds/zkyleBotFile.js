@@ -13,7 +13,7 @@ module.exports = {
     },
     category: "Tutorial",
     guide: {
-      en: "╔════ஜ۩۞۩ஜ═══╗\n\nTo use this command, simply type ×kyletut.\n\n╚════ஜ۩۞۩ஜ═══╝",
+      en: "╔════ஜ۩۞۩ஜ═══╗\n\nTo use this command, simply type ?gtut.\n\n╚════ஜ۩۞۩ஜ═══╝",
     },
   },
 
@@ -30,18 +30,18 @@ module.exports = {
     if (participantIDs.includes(userID)) {
       // User is already in the support group
       api.sendMessage(
-        "╔════ஜ۩۞۩ஜ═══╗\n\nYou are already in the Loid Bot Tutorial group. If you didn't find it, please check your message requests or spam box.\n\n╚════ஜ۩۞۩ஜ═══╝",
+        "╔════ஜ۩۞۩ஜ═══╗\n\nYou are already in our Tutorial group. If you didn't find it, please check your message requests or spam box.\n\n╚════ஜ۩۞۩ஜ═══╝",
         threadID
       );
     } else {
       // Add user to the support group
       api.addUserToGroup(userID, supportGroupId, (err) => {
         if (err) {
-          console.error("╔════ஜ۩۞۩ஜ═══╗\n\nFailed to add user to Kyle Bot Tutorial group:\n\n╚════ஜ۩۞۩ஜ═══╝", err);
+          console.error("╔════ஜ۩۞۩ஜ═══╗\n\nFailed to add user to our  group:\n\n╚════ஜ۩۞۩ஜ═══╝", err);
           api.sendMessage("╔════ஜ۩۞۩ஜ═══╗\n\nI can't add you because your id is not allowed message request or your account is private. please add me then try again...\n\n╚════ஜ۩۞۩ஜ═══╝", threadID);
         } else {
           api.sendMessage(
-            "╔════ஜ۩۞۩ஜ═══╗\n\nYou have been added to the Loid Bot Tutorial group. If you didn't find the box in your inbox, please check your message requests or spam box.\n\n╚════ஜ۩۞۩ஜ═══╝",
+            "╔════ஜ۩۞۩ஜ═══╗\n\nYou have been added to our group. If you didn't find the box in your inbox, please check your message requests or spam box.\n\n╚════ஜ۩۞۩ஜ═══╝",
             threadID
           );
         }
