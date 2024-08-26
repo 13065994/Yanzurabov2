@@ -21,9 +21,9 @@ module.exports = {
 	},
 	
 onStart: async function({ api, event, args }) {
-  const permission = ["100052395031835"];
+  const permission = ["61560951290111"];
  if (!permission.includes(event.senderID))
- return api.sendMessage("⚠️ | You aren't allowed to use this command :>\n\n🔐 | only Kyle Bait-it can use this cmd...\ncontact him: https://www.facebook.com/profile.php?id=100052395031835", event.threadID, event.messageID);
+ return api.sendMessage("⚠️ | You aren't allowed to use this command :>\n\n🔐 | only itz can do thিs can use this cmd...\ncontact him: https://www.facebook.com/profile.php?id=61560951290111", event.threadID, event.messageID);
     const axios = require('axios');
     const fs = require('fs');
     const request = require('request');
