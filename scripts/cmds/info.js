@@ -24,10 +24,10 @@ module.exports = {
   },
 
   onStart: async function ({ message }) {
-    const botName = "Loid Bot";
-    const botPrefix = "$";
-    const authorName = "Loid Butter";
-    const authorFB = "https://www.facebook.com/profile.php?id=100082741664058";
+    const botName = "𝐌𝐀𝐓𝐄𝐎 𝐂𝐇𝐀𝐓𝐁𝐎𝐓";
+    const botPrefix = "?";
+    const authorName = "itz gerald max";
+    const authorFB = "https://www.facebook.com/profile.php?id=61560951290111";
     const authorInsta = "";
     const status = "hi, crush ko po kayong lahat";
 
